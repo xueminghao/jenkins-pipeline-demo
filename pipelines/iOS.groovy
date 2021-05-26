@@ -1,3 +1,4 @@
+
 pipeline {
     agent {
         label('master')
@@ -6,10 +7,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                script {
-                    log.info("Hello Info")
-                    log.error("hello error")
-                }
+                buildStep name: "iOS", repo: "git@gitlab.yuceyi.com:client/ios_2c.git"
             }
         }
     }
