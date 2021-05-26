@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e95a9037-b571-430d-a109-ce6b52f058ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pipelines/iOS.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines/iOS.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins-pipeline-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-pipeline-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/log.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/vars/log.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

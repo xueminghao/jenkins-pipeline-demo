@@ -6,7 +6,10 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                echo "Hello World"
+                script {
+                    log.info("Hello Info")
+                    log.error("hello error")
+                }
             }
         }
     }
